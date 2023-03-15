@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background:white;
+    color:white;
+}
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header{
+    height: 150px;
+    background: #000;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+nav{
+    background:gray;
+    height: 60px;
+}
+nav h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+.menu {
+    list-style:none;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+.menu > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu > li:hover{
+background-color:greenyellow;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0,0,.5);
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenul li:hover{
+    background-color:black;
+}
+.submenu li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+#contenido{
+    width: 930px;
+    height: 1500px;
+    background:blueviolet;
+    float: left;
+    margin-top: 0.5px;
+    margin-right: 10px;
+    border: 1px solid palevioletred;
+    padding: 12px;
+}
+h4{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 60px;
+    color: #000;
+}
+footer{
+    background: #000;
+    clear: both;
+    height: 100%;
+}
+footer h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+h3{
+    font-size: 15px;
+    font-style: italic;
+    line-height: 60px;
+    color: #000;
+    text-decoration: #000;
+}
+

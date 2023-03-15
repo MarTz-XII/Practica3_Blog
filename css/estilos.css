@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(img/fonfo.png);
+    color:white;
+}
+#contenedor{
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header{
+    height: 150px;
+    background: #000;
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+nav{
+    background:gray;
+    height: 60px;
+}
+nav h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+.menu {
+    list-style:none;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+.menu > li >a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu > li:hover{
+background-color:greenyellow;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0,0,.5);
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenul li:hover{
+    background-color:black;
+}
+.submenu li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+#contenido{
+    width: 930px;
+    height: 1500px;
+    background:#99ffff;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 12px;
+}
+.subti1{
+   font-size: 40px;
+    line-height: 50px;
+    color:black;
+ }
+ .subti2{
+    font-size: 20px;
+     line-height: 30px;
+     color:black;
+  }
+fieldset{
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+legend{
+    background-color: palevioletred;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+}
+.datos li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    color: rgb(0, 0, 0);
+  
+}
+footer{
+    background: #000;
+    clear: both;
+    height: 100%;
+}
+footer h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+.conta{
+    font-size: 40px;
+    line-height: 50px;
+    color:white;
+ }
+ h3{
+    text-align: center;
+ }
+ .datosgus {
+    outline: 2px solid rgb(217, 221, 9);
+    margin: 5em auto;
+    width:600;
+    height: 760px;
+}
+.inf{
+    text-size-adjust: 1;
+}
+    
